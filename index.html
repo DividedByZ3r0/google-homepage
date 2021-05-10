@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Clone</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="styles.css">
-  <title>Google</title>
-</head>
+    <!-- All the links for the external files well be using -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="https://cdn.worldvectorlogo.com/logos/google-g-2015.svg"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <!-- Header starts! -->
-  <div class="header">
-
-    <div class="header-right"></div>
-    <a href="#">Gmail</a>
-    <a href="#">Images</a>
-    <span class="material-icons header-apps"> apps </span>
-    <span class="material-icons"> account_circle </span>
-  </div>
-  <!-- Header ends! -->
-
-  <!-- Main body starts! -->
-  <div class="mainBody">
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
-
-    <!-- Search starts -->
-    <div class="search">
-      <div class="search-input">
-        <span class="material-icons"> search </span>
-        <input type="text">
-        <span class="material-icons"> mic </span>
+  <body>
+    <!-- Google Header Starts! -->
+    <header>
+      <div class="header-left">
+        <a href="http://">About</a>
+        <a href="http://">Store</a>
       </div>
-      <div class="search-buttons">
-        <button>Google Search</button>
-        <button>Im feeling lucky</button>
+      <div class="header-right">
+        <a href="http://">Gmail</a>
+        <a href="http://">Images</a>
+        <span class="material-icons header-apps"> apps </span>
+        <span class="material-icons"> account_circle </span>
       </div>
-    </div>
-    <!-- Search ends -->
-  </div>
-  <!-- Main Body ends! -->
-</body>
+    </header>
+    <!-- Google Header Ends! -->
 
+    <!-- Main Body Starts! -->
+    <main>
+      <img
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Google Logo"
+      />
+
+      <!-- Search Start Here! -->
+      <div class="search">
+        <div class="search-input">
+          <span class="material-icons"> search </span>
+          <input type="text" placeholder="Search Google or type a URL" />
+          <span class="material-icons"> mic </span>
+        </div>
+
+        <div class="search-buttons">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
+        </div>
+      </div>
+      <!-- Search Ends Here! -->
+    </main>
+    <!-- Main Body Ends! -->
+  </body>
 </html>
